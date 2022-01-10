@@ -1,0 +1,374 @@
+@import './define.scss';
+@import './layout/variables.scss';
+
+.light-gray-background {
+    background: $lightGray;
+}
+
+.card-panel-white {
+    background: $pureWhite;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 6px;
+    h2 {
+        font-size: 24px;
+        font-weight: lighter;
+        color: $themeTitle;
+    }
+}
+
+.card-panel-min-full{
+    min-height: calc(100vh - 72px - #{$topnavHeight});
+}
+
+.icdforminterval{
+    margin-top:-7px;
+}
+.editdeleteBtnSize {
+    padding: 5px 7px;
+    span {
+        svg {
+            width: 1.3em!important;
+            height: 1.3em!important;
+        }
+    }
+}
+.info-title
+{
+    color: #909399;
+}
+.icon-button {
+    background: rgb(240, 249, 235);
+    border-color:  rgb(240, 249, 235);
+    color: #67C23A;
+}
+.icon-button-view {
+    float: right;
+    div {
+        float: left;
+        margin: 0 2px;
+        padding: 3px 6px;
+        border: 1px solid;
+        border-radius: 3px;
+        svg {
+            vertical-align: -0.3em!important;
+            width: 1.3em!important;
+            height: 1.3em!important;
+        }
+    }
+}
+.full-width
+{
+    width: 100%;
+}
+
+.pc-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.pc-padding-right {
+    margin-right: 20px;
+}
+
+.pc-padding-bottom {
+    margin-bottom: 20px;
+}
+
+.card-panel-white-shadow {
+    width: 100%;
+    background: $pureWhite;
+    padding: 30px;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05);
+    h2 {
+        font-size: 24px;
+        font-weight: lighter;
+        color: $themeTitle;
+    }
+}
+
+.content-panel {
+    padding: 10px 30px 30px;
+}
+
+.nopadding-content-panel {
+    padding: 10px;
+}
+
+.list-selector {
+    margin-bottom: 15px;
+    span {
+        margin-right: 10px;
+    }
+}
+
+.editdeleteBtnSize {
+    padding: 5px 7px;
+    span {
+        svg {
+            width: 1.3em!important;
+            height: 1.3em!important;
+        }
+    }
+}
+
+.user-name {
+    float: left;
+    padding: 0px 0;
+}
+
+.user-permission-view {
+    float: right;
+    div {
+        float: left;
+        margin: 0 3px;
+        padding: 4px 7px;
+        border: 1px solid;
+        border-radius: 3px;
+        svg {
+            vertical-align: -0.3em!important;
+            width: 1.3em!important;
+            height: 1.3em!important;
+        }
+    }
+}
+
+.permission-full {
+    background: rgb(240, 249, 235);
+    border-color: #67C23A;
+    color: #67C23A;
+}
+
+.permission-half {
+    background: rgb(253, 246, 236);
+    border-color: #E6A23C;
+    color: #E6A23C;
+}
+
+.permission-disable {
+    background: rgb(244, 244, 245);
+    border-color: #909399;
+    color: #909399;
+}
+
+.permission-control {
+    .el-checkbox-button__inner {
+      padding:8px 8px!important;
+      svg {
+        width:1.4em!important;
+        height:1.4em!important;
+        }
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    .user-name {
+        float: none;
+        padding: 0;
+        margin-bottom:5px;
+    }
+    .user-permission-view {
+        float: none;
+        div {
+            &:first-child {
+                margin-left: 0px;
+            }
+            float: left;
+            margin: 0 1px;
+            padding: 1px 5px;
+            border: 1px solid;
+            border-radius: 3px;
+            svg {
+                vertical-align: -0.25em!important;
+                width: 1em!important;
+                height: 1em!important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1453px) {
+    .list-selector {
+        span {
+            display: block;
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    }
+}
+.table-view {
+    word-break:keep-all!important;
+}
+
+.el-submenu .el-menu-item {
+    padding: 0 28px!important;
+}
+/* hack the IE11 */
+.el-table__header{
+    width: 100% !important;
+}
+.el-table__body{
+    width: 100% !important;
+}
+.ccode-select
+{
+    width: 90px;
+}
+.ccode-option
+{
+    .nation
+    {
+        margin:0 10px;
+    }
+    .label
+    {
+        float: right;
+    }
+    img 
+    {
+        float: left;
+        height: auto;
+        width: 40px;
+        padding: 5px 0;
+    }
+}
+.webapp-fullpage
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    background-color: $bkclr;
+    z-index: 999;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .webapp-header
+    {
+        height: 2.5rem;
+        .bar-right
+        {
+            color: $mainclr;
+            i{
+                font-size: 1rem
+            }
+        }
+    }
+    .div-body{
+        margin-top: 3rem;
+    }
+    .van-nav-bar__text {
+        color: $mainclr;
+    }
+    .van-nav-bar .van-icon {
+      color: $mainclr;
+    }
+}
+
+/*
+*record status
+*/
+$record-clr:(
+    valid:$record-valid,
+    invalid:$record-invalid,
+    visited:$record-visited,
+    pending:$record-pending,
+    cancel:$record-cancel,
+    reject:$record-reject,
+    approval:$clr-warning,
+);
+@mixin mix_record_clr($type) {
+    .r_text{
+        color:map-get($record-clr,$type);
+    }
+    .r_border-left
+    {
+        padding-left: 10px;
+        border-left: 5px solid map-get($record-clr,$type);
+    }
+    .r_border-left_small
+    {
+        padding-left: 10px;
+        border-left: 3px solid map-get($record-clr,$type);
+    }
+    .r_border-left_xs
+    {
+        padding-left: 10px;
+        border-left: 1px solid map-get($record-clr,$type);
+    }
+}
+
+.record-valid
+{
+    @include mix_record_clr(valid);
+}
+
+.record-cancel
+{
+    @include mix_record_clr(cancel)
+}
+.record-reject
+{
+    @include mix_record_clr(reject) 
+}
+.record-invalid
+{
+    @include mix_record_clr(invalid) 
+}
+.record-visited
+{
+    @include mix_record_clr(visited) 
+}
+.record-pending
+{
+    @include mix_record_clr(pending) 
+}
+.record-approval
+{
+    @include mix_record_clr(approval) 
+}
+
+
+/*
+*risk level
+*/
+
+$risk-clr:(
+    3:$risk-3,
+    2:$risk-2,
+    1:$risk-1,
+);
+@mixin mix_risk_clr($type) {
+    .r_tag{
+        color:map-get($risk-clr,$type);
+        font-size: 12px;
+        border-radius: 4px;
+        background-color:rgba(map-get($risk-clr,$type), .1);
+        padding: 3px 5px;
+    }
+    .r_tag_hiddenLow{
+        @if $type == 1{
+            display: none;
+        }@else{
+            color:map-get($risk-clr,$type);
+            font-size: 12px;
+            border-radius: 4px;
+            background-color:rgba(map-get($risk-clr,$type), .1);
+            padding: 3px 5px;
+        }
+    }    
+}
+.risk-level-1
+{
+    @include mix_risk_clr(1) 
+}
+.risk-level-2
+{
+    @include mix_risk_clr(2) 
+}
+.risk-level-3
+{
+    @include mix_risk_clr(3) 
+}

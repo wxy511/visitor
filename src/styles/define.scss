@@ -1,0 +1,42 @@
+//ICD
+// $mainclr: #0f6349;
+// $mainclr2: #1f9476; //background: linear-gradien
+// $mainclr3: #f3f8f7;
+
+//ABB
+// $mainclr: #ff000f;
+// $mainclr2: #ff000f; //background: linear-gradien
+// $mainclr3: #f3f8f7;
+// @import("@/custom/" + 'ICD'+ '/styles/define.scss');
+$bkclr: #f4f5f9;
+$topheight:80px;
+$inputbrnbk:#f7fbfa;
+$spanclr:#606266;
+$header-span:#303133;
+$line:#DCDFE6;
+$user-value:#878f8c;
+$clr-danger:#F56C6C;
+$clr-warning:#E6A23C;
+$clr-info:#909399;
+
+$form-icon:#99a9bf;
+
+$lightGray: #f0f2f5;
+$pureWhite: #ffffff;
+$themeTitle: #08263a;
+
+$table-header-bk:#0070c0;
+$table-header-clr:#ffffff;
+
+$record-valid:#36a3f7;
+$record-invalid:#909399;
+$record-cancel:#f26d7d;
+$record-reject:#f26d7d;
+$record-visited:#00c090;//3fa2e9 0070c0 19C096 00c090 40c9c6
+$record-pending:#E6A23C;
+
+$icon-details:#303133;
+
+$risk-3:#f26d7d;
+$risk-2:#E6A23C;
+$risk-1:#00c090;

@@ -1,0 +1,347 @@
+{
+  "title":"Visitor System",
+  "doctitle":{
+    "regis":"Pre-Registration",
+    "visitorList":"Visitor List",
+    "records":"Records",
+    "me":"Me",
+    "approval":"Approval Pending",
+    "recordDetails":"Details",
+    "switchLanguage":"Language",
+    "userInfo":"Profile",
+    "noticeForUse":"Notice"
+  },
+  "switchLanguage":"Language",
+  "Lang" : "en",
+  "required":"require",
+  "alertErr":"Error",
+  "submit":"Submit",
+  "cancel":"Cancel",
+  "confirm":"Confirm",
+  "ok":"Ok",
+  "reset":"Reset",
+  "password":"Password",
+  "oldpassword":"Old Password",
+  "confimChangeDate":"Change The Date",
+  "create":"Create",
+  "modify":"Modify",
+  "type":"Type",
+  "plsSel":"Please Select",
+  "name":"Name",
+  "all":"All",
+  "operate":"Operate",
+  "logout":"Logout",
+  "404tip":"Page Not Found",
+  "backhome":"Back Home",
+  "erGeneral": "There was an error",
+  "deleteConfim":"Do you confirm deletion?",
+  "add":"Add",
+  "status":"Status",
+  "regcode":"Registration Code",
+  "other":"Other",
+  "QRcode":"QR Code",
+  "NoData":"No Data",
+  "success":"Success",
+  "error":"Error",
+  "Save":"Save",
+  "yes":"Yes",
+  "no":"No",
+  "lng":{
+    "en":"English",
+    "cn":"简体中文"
+  },
+  "validate":{
+    "required":"required",
+    "empty":"not null",
+    "email":"email format error",
+    "IDCard":"the ID number is wrong",
+    "plsSel":"Please select ..."
+  },
+  "select":{
+    "other":"Other...",
+    "all":"All"
+  },
+  "nav":{
+    "home":"Home",
+    "userInfo":"Me",
+    "regis":"Pre-Registration",
+    "record":"Records",
+    "approval":"Approval Pending",
+    "noticeForUse":"Notice"
+  },
+  "navWebApp":{
+    "home":"Home",
+    "userInfo":"Me",
+    "regis":"Pre-Registration",
+    "record":"Records"
+  },
+  "Login" : {
+    "ChangeVefImg":"Click to change",
+    "Title": "Shuttle Bus System",
+    "Username": "Username",
+    "Password": "Password",
+    "LoginBtn": "Login",
+    "ValidCode":"Verification code",
+    "WrongMsg": {
+      "UserMsg": "Please enter the correct user name",
+      "PasswordMsg": "The password can not be less than 6 digits",
+      "Code":"Please enter the verification code"
+    },
+    "loginerr_21":"User name or password is invalid",
+    "loginerr_22":"User name or password is invalid",
+    "loginerr_101":"Verification code error",
+    "succ_ChangePsd":"Password changed successfully",
+    "err_ChangePsd_1022":"Old password error"
+  },
+  "RegInfo":{
+    "Vmeinfo":"My Visiting",
+    "visitInfo":"Visit Information",
+    "hostInfo":"Host",
+    "visitorInfo":"Visitor",
+    "groupVisitor":"Entourage",
+    "Vdate":"Visit Date",
+    "Vbranch":"Visit Place",
+    "Ename":"Host Name",
+    "Ephone":"Mobile Phone No.",
+    "Eemail":"Email",
+    "Edept":"Department",
+    "Edivision":"Working Location",
+    "Vname":"Visitor Name",
+    "Vunit":"Company",
+    "Vnation":"Country/Region",
+    "Vidtype":"Document Type",
+    "IDCard":"ID card",
+    "Passport":"Passport",
+    "Vid":"Document ID",
+    "Vphone":"Mobile Phone No.",
+    "Vacccount":"Number of Visitors",
+    "Vpurpose":"Purpose",
+    "Vemail":"Email",
+    "Vplate":"Plate",
+    "Gname":"Name",
+    "Gphone":"Mobile Phone No.",
+    "visitor":"Visitor",
+    "host":"Host",
+    "IDType":{
+      "0":"ID Card",
+      "1":"Passport",
+      "99":"Other"
+    },
+    "placeholder":{
+      "Vbranch":"Please select visit place",
+      "Vpurpose":"Please select visit purpose",
+      "otherPurpose":"Please enter the purpose",
+      "Vplate":"Please enter plate"
+    }
+  },
+  "Visitor":{
+    "pldSearch":"Name/Company/Phone",
+    "btnSelConfirm":"Confirm Select",
+    "addNewVisitor":"New Visitor",
+    "Vinblack":"In the blacklist"
+  },
+  "Regis":{
+    "visitorTips":{
+      "UNNC":"The Cellphone NO. or Email must be filled in to receive the registration successful notification as well as the registration QR-code."
+    },
+    "VisitorList":"Visitor List",
+    "EditUserInfo":"Modify",
+    "EditVisitor":"Modify",
+    "newVisitor":"New Visitor",
+    "deleteall":"Empty",
+    "selVEmpty":"no visitor",
+    "selVisitor":"Add/Select Visitors",
+    "loadVisitor":"Load From Excel",
+    "startDate":"Start",
+    "endDate":"End",
+    "remove":"Remove",
+    "erVdate":"The selection visit date has expired",
+    "erVdate_end":"The end date is wrong",
+    "novisitor":"Please add visitors",
+    "nohost":"Please select host",
+    "regSuccess":"Submitted successfully !",
+    "regPending":"Submitted successfully ! Please wait for approval",
+    "result":"Result",
+    "drive":"Drive",
+    "addPlate":"Add Plate",
+    "modifyPlate":"Modify Plate",
+    "addVplate":"Add a vehicle",
+    "editVplate":"Change Plate",
+    "placeholder":{
+      "Vplate":"Input your plate",
+      "fuzzysearch":"Fuzzy search",
+      "notfoundHost":"no data",
+      "q_input":"Input the host email"
+    },
+    "status":{
+      "label":"Status",
+      "success":"Success",
+      "error":"Error"
+    },
+    "onlyShowError":"Only show failure",
+    "error":{
+      "label":"Error",
+      "unknown":"Unknown",
+      "erSubmit4":"Failed to verify Employee Information",
+      "erSubmit5":"Visitor is in the blacklist",
+      "erSubmit6":"Employee is in the blacklist",
+      "erSubmit16":"Employee is not ACTIVE, please contact system administrator",
+      "erSubmit17":"Employee is out of date, please contact system administrator",
+      "erSubmit40":"Already exists. Please cancel the recode in your history and try submitting again."  
+    },
+    "app":{
+      "visitor":"Visitor"
+    },
+    "load":{
+      "btnLoad":"Load From Excel",
+      "click":" Click here ",
+      "tip1":"Please",
+      "tip2":"download the template and fill in the visitor information.",
+      "excelError1":"Please check the information with red in the list",
+      "excelError2":"Required fields or format error",
+      "loadError":"Load file error"
+    },
+    "riskRegions":{
+      "highRegions":"From high and medium risk regions",
+      "highRegionsTips":"No visit for the time being if coming from high and medium risk regions",
+      "otherRegions":"Have visited other provinces during the past 14 days",
+      "label":"A negative COVID-19 test report within 48 hours will be required to provide if the visitor have visited other provinces during the past 14 days",
+      "upload1":"Drag the file here, or",
+      "upload2":"Click on the upload"
+    }
+  },
+  "Records":{
+    "title":{
+      "all":"Records - All",
+      "valid":"Records - Valid",
+      "visited":"Records - Visited",
+      "invalid":"Records - Invalid",
+      "approval":"Records - Pending",
+      "approvalGroup":"Pending - Group"
+    },
+    "tips":{
+      "cancelConfirm":"Cancel the registration with {name} in {date} ?",
+      "cancel":"You have successfully cancelled"
+    },
+    "loading":"Loading...",
+    "noMore":"no more",
+    "nextweek":"Next Week",
+    "lastmonth":"Last Month",
+    "lastyear":"Last Year",
+    "pldkeyworde":"Visitor Name/Phone/Email",
+    "pldkeywordv":"Host Name/Phone/Email",
+    "keyword":"Keyword",
+    "date":"Date",
+    "btnQuery":"Query",
+    "startDate":"Start Date",
+    "endDate":"End Date",
+    "tabs":{
+      "all":"All",
+      "valid":"Valid",
+      "visited":"Visited",
+      "invalid":"Invalid",
+      "approval":"Pending"
+    },
+    "status":{
+      "label":"Status",
+      "valid":"Valid",
+      "visited":"Visited",
+      "cancel":"Canceled",
+      "reject":"Rejected",
+      "invalid":"Expired",
+      "Rtimein":"Check-in Time",
+      "Rplacein":"Check-in Point",
+      "Rtimeout":"Check-out Time",
+      "Rplaceout":"Check-out Point",
+      "pending":"Pending",
+      "noApproval":"No approval",
+      "noVisit":"No visit"
+    },
+    "checkinfo":"Check-in/out",
+    "details":{
+      "title":"Details",
+      "cancel":"Cancel",
+      "applytime":"Apply Time",
+      "canceltime":"Cancel Time"
+    },
+    "operType":{
+      "cancel":"Cancel Time",
+      "reject":"Reject Time",
+      "valid":"Approval Time",
+      "invalid":"Approval Time",
+      "visited":"Approval Time"
+    }
+  },
+  "approval":{
+    "visitor":"Visitor",
+    "host":"Host",
+    "people":" People",
+    "contact":"Contact",
+    "tips":{
+      "groupApprove":"Processing",
+      "details":"Details",
+      "pass":"Approve",
+      "reject":"Reject",
+      "passAll":"Approve All",
+      "rejectAll":"Reject All",
+      "passConfirm":"Whether to approve the pre-registration from {num} ?",
+      "rejectConfirm":"Whether to reject the pre-registration from {num} ?",
+      "passSuccs":"Approve",
+      "rejectSuccs":"Reject"
+    },
+    "status":{
+      "label":"Status",
+      "status0":"Approved",
+      "status-1":"Canceled",
+      "status-100":"Rejected",
+      "invalid":"Expired",
+      "pending":"Pending"
+    },
+    "pldReject":"Please "
+  },
+  "user":{
+    "complete":"Personal information",
+    "todayEvents":"Schedule",
+    "userinfo":"User Profile",
+    "title":"Modify personal Information",
+    "changeSuccess":"Personal information has been modified",
+    "userpage":"Profile",
+    "name":"Name",
+    "phone":"Phone",
+    "email":"Email",
+    "unit":"Company",
+    "id":"Document ID",
+    "Edivision":"Location",
+    "tips":{
+      "name":"Please input your name",
+      "phone":"Please input your phone",
+      "email":"Please input your email",
+      "unit":"Please input your company",
+      "id":"Please input your id",
+      "Edept":"Please input your department",
+      "Edivision":"Please input your working location"
+    },
+    "changeUserInfo":{"Ename":"Name","Eemail":"Email","Ephone":"Mobile Phone Number","Edept":"Department","Edivision":"Working Location","lng":"Language",
+      "Vname":"Name","Vphone":"Mobile Phone Number","Vunit":"Company","Vid":"Document ID",
+      "Vemail":"Email",
+      "Vnation":"Country/Region"
+    }
+  },
+  "tooltip":{
+    "deleteVisitor":"Delete the visitor {name}?"
+  },
+  "riskRegions":{
+    "erSelMyFrom":"Please select where you are from",
+    "erSelFrom":"Please select where the visitor are from",
+    "defultSelect":"Please Select",
+    "selTitle":"For epidemic prevention and control needs, please select the county you recently visited",
+    "tableLabel":"From",
+    "lastSel":"Recent",
+    "listTitle":"Regions List",
+    "level":{
+      "-1":"Low-risk",
+      "-2":"Medium-risk",
+      "-3":"High-risk"
+    }
+  }
+}
